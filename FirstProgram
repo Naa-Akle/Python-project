@@ -1,0 +1,12 @@
+'''A program that takes two numbers from a user and determines which is larger'''
+print('hello there')
+a= int(input('Enter first number: '))
+b= int(input('Enter second number: '))
+
+if (a > b):
+    print('The number',a,'is larger than the number',b)
+elif(a == b):
+     print('You inputted the same number twice, numbers should not be the same')
+else:
+     print('The number',b,'is larger than the number',a)
+         
